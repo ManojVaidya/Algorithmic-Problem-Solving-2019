@@ -1,5 +1,3 @@
-//Return number of Subsets with sum greater than or equal to given value
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -8,12 +6,12 @@
 int no_subset_sum_ge(int set[],int set_size,int value)
 {
     int count=0,x,sum,k;
-    for(x=0;x<(pow(2,set_size));x++)    //generate every possible number from
+    for(x=0;x<(pow(2,set_size));x++)  
     {
         sum=0;
         for(k=0;k<set_size;k++)
         {
-            if(x&(1<<k))        //check if kth bit is set
+            if(x&(1<<k))   
             {
                 sum=sum+set[k];
             }
