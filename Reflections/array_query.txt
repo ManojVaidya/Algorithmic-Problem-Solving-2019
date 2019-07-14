@@ -1,0 +1,16 @@
+Array Query Problem:
+	Techniques:
+		Look Up Table:
+			Space,Time Complexity : O(n²)
+			Fetch Time : O(1)
+			When? : Data or size of data is not static.
+		Square Root Decomposition:
+			Space,Time Complexity : O(n)
+			Fetch Time : O(√n)
+			When? : Query covers all blocks.
+		Segment Tree:
+			Time Complexity : O(n)
+			Fetch Time : O(log(n))
+			When? : Data and size of data is static.
+			
+			
